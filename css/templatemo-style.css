@@ -1,0 +1,695 @@
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; ;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b6b6b;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+    font-weight: 100; /* Вес шрифта 100 (Thin) */
+    font-style: italic; /* Устанавливает курсивный стиль */
+
+}
+
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tm-bg-green {
+  background: linear-gradient(to right, #4C4C4C, #9E9E9E, #CACACA);
+  text-decoration: none;
+}
+
+.tm-bg-orange {
+  background: linear-gradient(to right, #4C4C4C, #9E9E9E, #CACACA);
+  text-decoration: none;
+}
+
+.tm-bg-blue {
+  background: linear-gradient(to right, #4C4C4C, #9E9E9E, #CACACA);
+  text-decoration: none;
+}
+
+.tm-bg-dark-gray {
+  background: linear-gradient(to right, #4C4C4C, #9E9E9E, #CACACA);
+  text-decoration: none;
+}
+
+/*
+  Welcome section
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -400px;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+  border-radius: 7%;
+  
+}
+
+.tm-brand-container {
+  padding: 75px 110px;
+}
+
+.tm-brand-name {
+  font-size: 3 rem;
+}
+
+.tm-brand-description {
+  font-size: 1.4rem;
+}
+
+.parallax-window {
+  min-height: 1300px;
+  background: transparent;
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+  
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: black;
+  background: linear-gradient(to right, #919191, #c2c2c2, #919191);
+  padding: 80px 43px 70px;
+  height: 100%;
+  border-radius: 10%;
+
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+
+}
+
+/*
+  Portfolio section
+*/
+
+#tmPortfolio {
+  padding-top: 60px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: st;
+  margin-bottom: 100px;
+}
+
+.tm-portfolio-name {
+  width: 450px;
+  height: 270px;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  border-radius: 10%; 
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-text-green {
+  color: #000000;
+}
+
+.tm-text-orange {
+  color: #000000;
+}
+
+.tm-text-blue {
+  color: #000000;
+}
+
+.tm-text-dark-gray {
+  color: #000000;
+}
+
+.tm-title-small {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/*
+  Contact section
+*/
+
+#tmContact {
+  padding-top: 95px;
+}
+
+.tm-contact-item {
+  width: 33.3334%;
+  max-width: 345px;
+  height: auto;
+  min-height: 420px;
+  margin-right: 35px;
+  background-color: white;
+  padding: 54px 34px 44px;
+  border-radius: 10%;
+}
+
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+.tm-contact-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+  
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 45px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+
+}
+
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tm-btn-submit {
+  background-color: #999999;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+}
+
+.tm-btn-submit:focus,
+.tm-btn-submit:hover {
+  background-color: #676767;
+}
+
+.tm-copyright-text {
+  margin-bottom: 30px;
+position: static;
+
+    width: 60%; /* Ширина контейнера */
+    text-align: center; /* Центрирует текст по горизонтали */
+    padding: 10px; /* Отступы внутри контейнера */
+    color: black;
+    background-color: rgba(100, 100, 100, 0.5); /* Полупрозрачный серый цвет */
+}
+.tm-link {
+  color: #676767;
+}
+
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
+
+
+@keyframes animate
+{
+  0%
+  {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  50%
+  {
+      opacity: 1;
+  }
+  100%
+  {
+      transform: scale(1.2);
+      opacity: 0;
+  }
+}
+.header-container {
+  position: relative; /* Позволяет позиционировать логотип внутри контейнера */
+  width: 100%; /* Занимает всю ширину сайта */
+  height: 100px; /* Высота контейнера (настраивается по вашему усмотрению) */
+  background-color: #f8f8f8; /* Фон (настраивается) */
+}
+
+/* Стили для логотипа */
+.logo {
+  position: absolute; /* Абсолютное позиционирование внутри контейнера */
+  top: 0; /* Закрепляет логотип к верху контейнера */
+  left: 50%; /* Центрирует логотип по горизонтали */
+  transform: translateX(-50%); /* Корректирует положение для центрирования */
+  width: 100px; /* Ширина логотипа (настраивается по вашему усмотрению) */
+  height: auto; /* Сохраняет пропорции логотипа */
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  .logo {
+      width: 200px; /* Большие размеры логотипа на компьютерах */
+  }
+}
+
+/* Размеры логотипа для телефонов */
+@media (max-width: 767px) {
+  .logo {
+      width: 100px; /* Меньшие размеры логотипа на телефонах */
+  }
+}
+
+/* Стиль для кнопки-ссылки */
+.button-link {
+  display: inline-block; /* Отображаем как строчный блок */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  border: 2px solid #333; /* Граница */
+  border-radius: 4px; /* Скругленные углы */
+  background-color: #fff; /* Белый фон */
+  color: #333; /* Темный цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-weight: bold; /* Жирное начертание текста */
+  position: relative; /* Позиционирование для использования псевдоэлемента */
+  transition: all 0.3s ease; /* Плавный переход стилей */
+}
+/* Стиль при наведении */
+.button-link:hover {
+  background-color: #333; /* Темный цвет фона */
+  color: #fff; /* Белый цвет текста */
+}
+
+
+/* Стили для сектора героев */
+.hero-section {
+  position: relative; /* Позволяет позиционировать текст поверх картинки */
+  width: 100%; /* Занимает всю ширину экрана */
+  height: 900px; /* Высота сектора героев (настраивается по вашему усмотрению) */
+  overflow: hidden; /* Обрезает контент, если он выходит за пределы сектора */
+}
+
+/* Адаптивная картинка */
+.hero-image {
+  width: 100%; /* Занимает всю ширину экрана */
+  height: 900px; /* Занимает всю высоту сектора героев */
+  object-fit: cover; /* Обрезает изображение, чтобы оно соответствовало пропорциям контейнера */
+}
+
+/* Стили для текстового блока поверх картинки */
+.text-overlay {
+  position: absolute; /* Абсолютное позиционирование относительно контейнера */
+  bottom: 50px; /* Располагает текст внизу контейнера, с отступом 20px */
+  left: 20px; /* Отступ от левого края 20px */
+  right: 50%;
+  padding: 10px; /* Отступы внутри текстового блока */
+  color: #ffffff; /* Цвет текста (белый) */
+  background-color: rgba(0, 0, 0, 0.4); /* Полупрозрачный черный фон */
+  border-radius: 4px; /* Скругленные углы */
+  
+}
+
+
+/* Стили для контактной информации */
+.contact-info {
+  flex: 1; /* Занимает треть ширины футера */
+  text-align: left; /* Выровнен влево */
+}
+
+/* Стили для футера */
+.site-footer {
+  display: flex; /* Использует flex-контейнер */
+  justify-content: space-between; /* Равномерно распределяет элементы по горизонтали */
+  align-items: center; /* Центрирует элементы по вертикали */
+  padding: 10px 20px; /* Отступы внутри футера */
+  background-color: rgba(211, 211, 211, 0.7); /* Светло-серый прозрачный фон */
+  text-align: center; /* Центрирует текст внутри футера */
+  
+}
+
+/* Стили для контактной информации */
+.contact-info {
+  flex: 1; /* Занимает треть ширины футера */
+  text-align: left; /* Выровнен влево */
+
+}
+
+/* Стили для логотипа */
+.logo-footer {
+  flex: 1; /* Занимает треть ширины футера */
+  text-align: center; /* Центрирует по горизонтали */
+}
+
+.footer-logo {
+  width: 250px; /* Ширина логотипа для начального состояния */
+  height: auto; /* Сохраняет пропорции */
+}
+
+/* Стили для дополнительной информации */
+.additional-info {
+  flex: 1; /* Занимает треть ширины футера */
+  text-align: right; /* Выровнен вправо */
+  font-size: 15px;
+  
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  /* Уменьшение текста в футере */
+  .site-footer p {
+      font-size: 9px; /* Уменьшает размер шрифта текста в футере */
+  }
+  
+  /* Увеличение логотипа в футере */
+  .footer-logo {
+      width: 100px; /* Увеличивает ширину логотипа в два раза (по сравнению с исходной шириной 50px) */
+  }
+}
+/* Стили для заголовка */
+.tm-welcome-title {
+  font-size: 16px; /* Исходный размер шрифта для компьютеров */
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  .tm-welcome-title {
+      font-size: 12px; /* Уменьшает размер шрифта для мобильных устройств */
+  }
+}
+#tmPortfolio a {
+  color: inherit; /* Устанавливает цвет текста в соответствии с родительским элементом */
+  text-decoration: none; /* Убирает подчеркивание у ссылок */
+}
+/* Стили для хедера */
+.site-header {
+  position: absolute; /* Абсолютное позиционирование */
+  top: 0; /* Прикрепляет хедер к верхней части родительского контейнера */
+  width: 100%; /* Занимает всю ширину родительского контейнера */
+  padding: 10px 20px; /* Отступы внутри хедера */
+  background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
+  z-index: 1000; /* Высокий z-index */
+}
+
+/* Стили для контейнера выбора языка */
+.language-selector {
+  position: absolute; /* Абсолютное позиционирование */
+  top: 10px; /* Отступ сверху */
+  right: 10px; /* Отступ справа */
+  z-index: 1000; /* Высокий z-index */
+}
+
+/* Стили для кнопки выбора языка */
+.dropdown-toggle {
+  opacity: 0.5; /* Прозрачность кнопки на 50% */
+  width: 70px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  border-radius: 20%; /* Скругленные углы для прямоугольной формы */
+  margin-right: 20px; /* Отступ справа для смещения кнопки левее */
+  display: flex; /* Отображает кнопку как flex-контейнер */
+  align-items: center; /* Центрирует содержимое по вертикали */
+  justify-content: center; /* Центрирует содержимое по горизонтали */
+  background-color: #808080; /* Серый цвет фона */
+  color: white; /* Белый цвет текста */
+  border: none; /* Убирает границу */
+  cursor: pointer; /* Указатель при наведении */
+  transition: all 0.3s ease; /* Плавный переход */
+}
+
+/* Эффект нажатия на кнопку */
+.dropdown-toggle:active {
+  transform: scale(0.95); /* Уменьшает кнопку на 5% при нажатии */
+}
+
+/* Стили для выпадающего меню */
+.dropdown-menu {
+  display: none; /* Скрывает меню по умолчанию */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 60px; /* Размещает меню под кнопкой */
+  left: 50%; /* Центрирует меню относительно кнопки */
+  transform: translateX(-50%); /* Центрирует меню по горизонтали */
+  background-color: white; /* Белый цвет фона */
+  border-radius: 3px; /* Скругленные углы */
+  border: 1px solid #ccc; /* Светлая граница */
+  list-style: none; /* Убирает маркеры списка */
+  padding: 5px 0; /* Отступы */
+  z-index: 1000; /* Высокий z-index */
+}
+
+/* Стили для элементов выпадающего меню */
+.dropdown-menu li a {
+  padding: 10px 20px; /* Отступы внутри элементов */
+  color: black; /* Черный цвет текста */
+  text-decoration: none; /* Убирает подчеркивание у ссылок */
+  display: block; /* Отображает элементы как блоки */
+  transition: background-color 0.3s ease; /* Плавный переход фона */
+}
+
+/* Эффект при наведении на элементы меню */
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0; /* Светло-серый фон при наведении */
+}
+.logo img {
+  width: 150px; /* Начальная ширина логотипа */
+  height: 150px; /* Сохраняет пропорции */
+  display: block; /* Отображает логотип как блок */
+  cursor: pointer; /* Курсор указателя при наведении */
+  transition: transform 0.2s ease; /* Плавный переход для эффекта нажатия */
+}
+/* Эффект нажатия на логотип */
+.logo img:active {
+  transform: scale(0.95); /* Уменьшает размер логотипа на 5% при нажатии */
+}
+
+/* Медиазапрос для увеличения логотипа на компьютерах */
+@media (min-width: 769px) {
+  .logo img {
+      width: 200px; /* Увеличивает ширину логотипа в 4 раза (200px) на компьютерах */
+      display: block; /* Отображает логотип как блок */
+  cursor: pointer; /* Курсор указателя при наведении */
+  transition: transform 0.2s ease; /* Плавный переход для эффекта нажатия */
+  }
+
+}
+/* Медиазапрос для уменьшения логотипа на мобильных устройствах */
+@media (max-width: 768px) {
+  .logo img {
+      width: 150px; /* Уменьшает ширину логотипа в 2 раза на мобильных устройствах (в данном случае 25px) */
+      margin-left: -20px; /* Смещает логотип  левее на сколько нужно*/
+  }
+}
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  /* Уменьшает ширину и высоту выпадающего меню */
+  .dropdown-menu {
+      width: 50px; /* Уменьшает ширину выпадающего меню */
+      padding: 5px; /* Уменьшает внутренние отступы */
+  }
+
+ /* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  /* Стили для кнопки выбора языка */
+  .dropdown-toggle {
+      width: 60px; /* Уменьшает ширину кнопки */
+      height: 40px; /* Уменьшает высоту кнопки */
+      border-radius: 20%; /* Делает углы менее скругленными */
+      margin-left: 20px; /* Отступ слева для смещения кнопки правее */
+  }
+}
+}
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  .language-selector {
+      left: 35px; /* Закрепляет контейнер выбора языка в левом углу с отступом 7px */
+      right: auto; /* Отключает фиксирование в правом углу */
+      top: 7px; /* Отступ сверху */
+      position: fixed; /* Закрепляет контейнер в левом верхнем углу */
+  }
+}
+  .social-icons {
+    margin-top: 15px; /* Отступ сверху */
+
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #0088cc; /* Цвет иконок */
+    border-radius: 50%;
+    margin-right: 10px; /* Отступ между иконками */
+    text-align: center;
+    line-height: 40px;
+    color: #fff; /* Цвет иконок */
+    font-size: 20px;
+    text-decoration: none; /* Убираем подчеркивание */
+  }
+  @media screen and (max-width: 768px) {
+    .social-icons a {
+      width: 30px; /* Уменьшение ширины */
+      height: 30px; /* Уменьшение высоты */
+      line-height: 30px; /* Выравнивание текста по центру */
+      font-size: 16px; /* Уменьшение размера шрифта */
+      margin-right: 5px; /* Уменьшение отступа между кнопками */
+    }
+  }
+  .step i {
+    margin-right: 10px; /* Добавляем отступ между иконкой и текстом шага */
+  }.step .icon {
+    margin-right: 25px; /* Добавляем отступ между иконкой и текстом шага */
+  }
+  .step .text {
+    margin-bottom: 250px; /* Добавляем вертикальный отступ между текстом и иконкой */
+    font-size:16px;
+  }
+  /* Медиа-запрос для мобильных устройств (ширина экрана до 768px) */
+@media screen and (max-width: 768px) {
+  .step .text {
+    font-size: 11px; /* Уменьшаем размер текста на мобильных устройствах */
+  }
+}
+  .result {
+    margin-top: 50px; /* Добавляем интервал 50 пикселей сверху */
+  }
+  .steps {
+    margin-bottom: 50px; /* Добавляем интервал 50 пикселей снизу */
+  }
